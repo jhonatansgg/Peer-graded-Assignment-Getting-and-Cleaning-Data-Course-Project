@@ -7,11 +7,11 @@ El proyecto contiene el script llamado run_analysis.R, este permite la descarga,
 
 
 **- Leyendo los datos:**
-      - features <- features.txt este txt contiene datos provenientes de las señales de giroscopios y acelerometros
-      - activities <- activity_labels.txt, con columnas llamadas “Codigo” y “Actividad” estas son las actividades que realizaban cuando se tomaron los datos, con tiene 6           actividades etiquetadas con los números del 1 al 6.
--subject_test <- test/subject_test.txt, contiene los datos de prueba de los volutarios
--x_test <- test/X_test.txt, contiene los datos de las características
--y_test <- test/y_test.txt, contiene las actividades que se estaban realizando en el momento de prube bajo las etiquetas del 1 al 6
+-     features <- features.txt este txt contiene datos provenientes de las señales de giroscopios y acelerometros
+-     activities <- activity_labels.txt, con columnas llamadas “Codigo” y “Actividad” estas son las actividades que realizaban cuando se tomaron los datos, con tiene 6           actividades etiquetadas con los números del 1 al 6.
+-     subject_test <- test/subject_test.txt, contiene los datos de prueba de los volutarios
+-     x_test <- test/X_test.txt, contiene los datos de las características
+-     y_test <- test/y_test.txt, contiene las actividades que se estaban realizando en el momento de prube bajo las etiquetas del 1 al 6
 -	subject_train <- test/subject_train.txt contiene datos de las personas a las que se les tomaron
 -	x_train <- test/X_train.txt, contiene datos de las caracteristicas
 -	y_train <- test/y_train.txt, contiene las actividades, por etiquetas
