@@ -2,10 +2,10 @@
 ## Introducción
 Este libro de códigos tiene como fin aclarar el proceso realizado para la obtención, procesamiento y limpieza de los datos asignados para este proyecto de evaluación por pares.
 El proyecto contiene el script llamado run_analysis.R, este permite la descarga, obtención, lectura y procesamiento de los datos de acuerdo con los 5 pasos de transformación de datos en desorden a datos ordenados
-**. Descargando los datos:** Los datos fueron descargados de la siguiente dirección https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip en **"Sat Aug 15 23:03:46 2020"** y descomprimidos en **UCI HAR Dataset**
-**. Leyendo los datos:**
-  . features <- features.txt este txt contiene datos provenientes de las señales de giroscopios y acelerometros
-  . activities <- activity_labels.txt, con columnas llamadas “Codigo” y “Actividad” estas son las actividades que realizaban cuando se tomaron los datos, con tiene 6 actividades       etiquetadas con los números del 1 al 6.
+**- Descargando los datos:** Los datos fueron descargados de la siguiente dirección https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip en **"Sat Aug 15 23:03:46 2020"** y descomprimidos en **UCI HAR Dataset**
+**- Leyendo los datos:**
+      - features <- features.txt este txt contiene datos provenientes de las señales de giroscopios y acelerometros
+      - activities <- activity_labels.txt, con columnas llamadas “Codigo” y “Actividad” estas son las actividades que realizaban cuando se tomaron los datos, con tiene 6 actividades       etiquetadas con los números del 1 al 6.
 o	subject_test <- test/subject_test.txt, contiene los datos de prueba de los volutarios
 o	x_test <- test/X_test.txt, contiene los datos de las características
 o	y_test <- test/y_test.txt, contiene las actividades que se estaban realizando en el momento de prube bajo las etiquetas del 1 al 6
